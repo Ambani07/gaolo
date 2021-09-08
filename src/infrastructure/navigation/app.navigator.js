@@ -6,8 +6,10 @@ import { Ionicons } from "@expo/vector-icons";
 
 import { Text, Button } from "react-native";
 
-import { SafeArea } from "../../components/utility/safe-area.component";
 import { RestaurantsNavigator } from "./restaurants.navigator";
+import { SettingsNavigator } from "./settings.navigator";
+
+import { SafeArea } from "../../components/utility/safe-area.component";
 import { MapScreen } from "../../features/map/screens/map.screen";
 import { AuthenticationContext } from "../../services/authentification/authentification.context";
 import { FavouritesContextProvider } from "../../services/favourites/favourites.context";
@@ -56,7 +58,7 @@ export const AppNavigator = () => (
 
           <Tab.Screen name="Map" component={MapScreen} />
 
-          <Tab.Screen name="Settings" component={Settings} />
+          <Tab.Screen name="Settings" component={SettingsNavigator} />
         </Tab.Navigator>
       </RestaurantsContextProvider>
     </LocationContextProvider>
