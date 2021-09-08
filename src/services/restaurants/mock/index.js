@@ -11,6 +11,7 @@ export const mocks = {
 };
 
 export const mockImages = [
+  "https://www.shoprite.co.za/medias/10600547EA-checkers515Wx515H?context=bWFzdGVyfGltYWdlc3wzMDg4OTF8aW1hZ2UvcG5nfGltYWdlcy9oY2QvaGUxLzg5NzIwNDc5MDg4OTQucG5nfDMxNzI4NTE3OTJlOWNlNzhmZjkxYjc1NDVkYTFlNGQ1MmI3YTM5NWU2N2EwZGYwNDJlNTM1YTAzMTVkM2MzYTA",
   "https://www.foodiesfeed.com/wp-content/uploads/2019/06/top-view-for-box-of-2-burgers-home-made-600x899.jpg",
   "https://www.foodiesfeed.com/wp-content/uploads/2019/04/mae-mu-oranges-ice-600x750.jpg",
   "https://www.foodiesfeed.com/wp-content/uploads/2020/08/detail-of-pavlova-strawberry-piece-of-cake-600x800.jpg",
